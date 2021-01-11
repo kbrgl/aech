@@ -1,0 +1,40 @@
+:root {
+  --color-accent: var(--color-black);
+}
+
+.l-header__action a:last-child {
+  margin-left: var(--m);
+  color: var(--color-light);
+}
+
+.l-header__meta {
+  margin-top: var(--m);
+  color: var(--color-light);
+  font-size: var(--font-size-xs);
+}
+
+.l-header__meta a {
+  color: var(--color-black);
+}
+
+.content {
+  padding: var(--xs) 0;
+}
+
+.content p {
+  margin: var(--l) 0;
+  font-size: var(--font-size-m);
+  color: var(--color-dark);
+  font-family: var(--font-family-serif);
+}
+
+.gradient {
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, var(--color-light), transparent);
+  opacity: 0.2;
+}
