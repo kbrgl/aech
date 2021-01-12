@@ -2,6 +2,10 @@
   --color-accent: var(--color-black);
 }
 
+main {
+  padding: var(--xxl) var(--m);
+}
+
 .l-header__action a:last-child {
   margin-left: var(--m);
   color: var(--color-light);
